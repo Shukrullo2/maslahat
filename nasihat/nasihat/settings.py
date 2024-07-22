@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-1761$0=*i!r8n9fhmoi(a6tf@zplh2@ejw7snatl9npbzb0ssp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://nasihat-ab617c06e45b.herokuapp.com/']
 
 
 # Application definition
@@ -56,12 +56,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
-    "https://sub.example.com",
-    "http://localhost:8080",
-    "http://127.0.0.1:9000",
-]
+CORS_ALLOWED_ORIGINS = ["https://nasihat-ab617c06e45b.herokuapp.com/"]
 
 ROOT_URLCONF = "nasihat.urls"
 

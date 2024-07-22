@@ -1,1 +1,1 @@
-web: gunicorn devsearch.wsgi:application --log-file -
+web: gunicorn nasihat.wsgi:application --log-file -
